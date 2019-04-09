@@ -10,23 +10,18 @@ a {
 a:hover {
   text-decoration: none;
 }
-@main _color {
-  color: #fb6470;
-}
 .wrapper {
   display: flex;
   justify-content: center;
   width: 100%;
 }
 nav {
-  border: red 1px solid;
   width: 22.44%;
 }
 nav img {
   width: 100%;
 }
 .main-container {
-  border: #6610f2 1px solid;
   width: 77.56%;
 }
 header {
@@ -87,15 +82,19 @@ main h3 {
 .main-services-container {
   display: flex;
   justify-content: space-between;
-  padding-top: 26px;
+  padding-top: 32px;
 }
 .main-services-text {
   font-size: 18px;
   font-weight: 500;
-  line-height: 50px;
+  line-height: 40px;
   color: #3e3e3e;
 }
 .active {
-  margin-left: 15px;
+  margin-left: 17px;
+}
+svg {
+  width: 100%;
+  overflow: visible;
 }
 /*# sourceMappingURL=styles.css.map */
