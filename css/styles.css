@@ -66,7 +66,6 @@ header a {
   margin-left: 36.63%;
 }
 main {
-  border: red 1px solid;
   padding: 71px 95px 80px 115px;
 }
 main h3 {
@@ -247,7 +246,34 @@ textarea::-webkit-input-placeholder {
   font-weight: 500;
   color: #3e3e3e;
 }
+footer {
+  margin-top: 15px;
+  text-align: center;
+  height: 100px;
+}
+footer p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #3e3e3e;
+}
 .footer-container {
   display: flex;
+  width: 116px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.footer-icon a {
+  color: black;
+  font-size: 20px;
+}
+.footer-icon-color a {
+  color: #01b9c3;
+}
+.footer-line {
+  width: 1px;
+  height: 17px;
+  background: black;
+  margin-left: 14px;
+  margin-right: 14px;
 }
 /*# sourceMappingURL=styles.css.map */
