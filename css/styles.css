@@ -23,6 +23,32 @@ nav {
 nav img {
   width: 100%;
 }
+.nav-img {
+  position: relative;
+}
+#nav-img-btn {
+  position: absolute;
+  left: 45px;
+  top: 7px;
+  color: #fb6470;
+  font-size: 45px;
+}
+.nav-img-tittle {
+  top: 145px;
+  left: 29px;
+  position: absolute;
+}
+.nav-img-tittle h2 {
+  font-size: 32px;
+  letter-spacing: 0.8px;
+  color: white;
+  margin-bottom: 6px;
+}
+.nav-img-tittle h3 {
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  color: white;
+}
 .nav-link {
   margin-top: 6px;
   margin-bottom: 5px;
