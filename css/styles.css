@@ -33,6 +33,11 @@ nav img {
     height: 3000px;
   }
 }
+@media (max-width: 1200px) {
+  nav {
+    height: 2380px;
+  }
+}
 .nav-img {
   position: relative;
 }
@@ -59,6 +64,11 @@ nav img {
     top: 240px;
   }
 }
+@media (max-width: 1200px) {
+  .nav-img-tittle {
+    top: 65%;
+  }
+}
 .nav-img-tittle h2 {
   font-size: 32px;
   letter-spacing: 0.8px;
@@ -68,6 +78,11 @@ nav img {
 @media (min-width: 1800px) {
   .nav-img-tittle h2 {
     font-size: 40px;
+  }
+}
+@media (max-width: 1200px) {
+  .nav-img-tittle h2 {
+    font-size: 30px;
   }
 }
 .nav-img-tittle h3 {
@@ -91,6 +106,11 @@ nav img {
   font-weight: 500;
   letter-spacing: 0.5px;
   color: white;
+}
+@media (max-width: 1200px) {
+  .nav-link a {
+    font-size: 16px;
+  }
 }
 .nav-line {
   width: 100%;
@@ -331,6 +351,11 @@ svg {
     margin-left: 230px;
   }
 }
+@media (max-width: 1200px) {
+  .contacts-form button {
+    margin-left: 150px;
+  }
+}
 .contacts-container {
   display: flex;
   justify-content: space-between;
@@ -349,6 +374,11 @@ svg {
   .contacts-form-border {
     width: 350px;
     margin-bottom: 30px;
+  }
+}
+@media (max-width: 1200px) {
+  .contacts-form-border {
+    width: 245px;
   }
 }
 .conracts-form-message {
@@ -388,6 +418,11 @@ textarea::-webkit-input-placeholder {
     height: 310px;
   }
 }
+@media (max-width: 1200px) {
+  .contacts-line {
+    margin-left: 40px;
+  }
+}
 .contacts {
   width: 46%;
 }
@@ -404,6 +439,11 @@ textarea::-webkit-input-placeholder {
     margin-top: 37px;
   }
 }
+@media (max-width: 1200px) {
+  .contacts-img {
+    margin-right: 30px;
+  }
+}
 .contacts-info h5 {
   margin-top: 20px;
   margin-bottom: 15px;
@@ -416,6 +456,11 @@ textarea::-webkit-input-placeholder {
     font-size: 28px;
   }
 }
+@media (max-width: 1200px) {
+  .contacts-info h5 {
+    margin-bottom: 10px;
+  }
+}
 .contacts-info p {
   font-size: 14px;
   font-weight: 500;
@@ -424,6 +469,11 @@ textarea::-webkit-input-placeholder {
 @media (min-width: 1800px) {
   .contacts-info p {
     font-size: 18px;
+  }
+}
+@media (max-width: 1200px) {
+  .contacts-info p {
+    font-size: 14px;
   }
 }
 footer {
