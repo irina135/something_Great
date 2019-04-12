@@ -43,6 +43,11 @@ nav img {
     height: 2000px;
   }
 }
+@media (max-width: 768px) {
+  nav {
+    height: 1880px;
+  }
+}
 .nav-img {
   position: relative;
 }
@@ -57,6 +62,12 @@ nav img {
   #nav-img-btn {
     font-size: 34px;
     left: 30px;
+  }
+}
+@media (max-width: 768px) {
+  #nav-img-btn {
+    font-size: 30px;
+    left: 15px;
   }
 }
 .nav-img-tittle {
@@ -85,6 +96,11 @@ nav img {
     top: 55%;
   }
 }
+@media (max-width: 768px) {
+  .nav-img-tittle {
+    left: 20px;
+  }
+}
 .nav-img-tittle h2 {
   font-size: 32px;
   letter-spacing: 0.8px;
@@ -106,6 +122,11 @@ nav img {
     font-size: 24px;
   }
 }
+@media (max-width: 768px) {
+  .nav-img-tittle h2 {
+    font-size: 20px;
+  }
+}
 .nav-img-tittle h3 {
   font-size: 16px;
   letter-spacing: 0.4px;
@@ -119,6 +140,11 @@ nav img {
 @media (max-width: 992px) {
   .nav-img-tittle h3 {
     font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .nav-img-tittle h3 {
+    font-size: 12px;
   }
 }
 .nav-link {
@@ -141,6 +167,12 @@ nav img {
 @media (max-width: 992px) {
   .nav-link a {
     font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .nav-link a {
+    font-size: 10px;
+    margin-left: 5px;
   }
 }
 .nav-line {
@@ -172,6 +204,12 @@ header {
     padding-bottom: 85px;
   }
 }
+@media (max-width: 768px) {
+  header {
+    padding-top: 40px;
+    padding-bottom: 45px;
+  }
+}
 header h1 {
   font-size: 48px;
   font-weight: 400;
@@ -194,6 +232,12 @@ header h1 {
 @media (max-width: 992px) {
   header h1 {
     font-size: 36px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 26px;
     margin-bottom: 10px;
   }
 }
@@ -225,6 +269,12 @@ header p {
     margin-bottom: 30px;
   }
 }
+@media (max-width: 768px) {
+  header p {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+}
 header a {
   color: white;
   font-size: 22px;
@@ -247,12 +297,23 @@ header a {
     padding: 10px 39px 9px 39px;
   }
 }
+@media (max-width: 768px) {
+  header a {
+    font-size: 10px;
+    padding: 6px 27px 7px 27px;
+  }
+}
 main {
   padding: 71px 95px 80px 115px;
 }
 @media (max-width: 992px) {
   main {
     padding: 50px 55px 20px 75px;
+  }
+}
+@media (max-width: 768px) {
+  main {
+    padding: 30px 30px 20px 45px;
   }
 }
 main h3 {
@@ -366,6 +427,12 @@ svg {
     font-size: 17px;
   }
 }
+@media (max-width: 768px) {
+  .main-img h4 {
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+}
 .main-img p {
   font-size: 16px;
   font-weight: 200;
@@ -384,6 +451,12 @@ svg {
   .main-img p {
     font-size: 14px;
     margin-bottom: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .main-img p {
+    font-size: 11px;
+    margin-bottom: 5px;
   }
 }
 .main-img a {
@@ -440,8 +513,19 @@ svg {
     margin-top: 10px;
   }
 }
+@media (max-width: 768px) {
+  .contacts-container {
+    display: inline-block;
+    margin-top: 3px;
+  }
+}
 .contacts-form {
   width: 38%;
+}
+@media (max-width: 768px) {
+  .contacts-form {
+    width: 100%;
+  }
 }
 .contacts-form h4 {
   margin-bottom: 10px;
@@ -481,6 +565,11 @@ svg {
     margin-left: 130px;
   }
 }
+@media (max-width: 992px) {
+  .contacts-form button {
+    margin-left: 170px;
+  }
+}
 /*.contacts-container {
   display: flex;
   justify-content: space-between;
@@ -509,6 +598,11 @@ svg {
 @media (max-width: 992px) {
   .contacts-form-border {
     width: 225px;
+  }
+}
+@media (max-width: 768px) {
+  .contacts-form-border {
+    width: 265px;
   }
 }
 .conracts-form-message {
@@ -558,12 +652,28 @@ textarea::-webkit-input-placeholder {
     margin-left: 50px;
   }
 }
+@media (max-width: 768px) {
+  .contacts-line {
+    position: absolute;
+    display: none;
+  }
+}
 .contacts {
   width: 46%;
+}
+@media (max-width: 768px) {
+  .contacts {
+    width: 100%;
+  }
 }
 .contacts-wrapper {
   display: flex;
   margin-bottom: 16px;
+}
+@media (max-width: 768px) {
+  .contacts-wrapper {
+    margin-bottom: 0;
+  }
 }
 .contacts-img {
   margin-right: 42px;
@@ -582,6 +692,11 @@ textarea::-webkit-input-placeholder {
 @media (max-width: 992px) {
   .contacts-img {
     margin-right: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .contacts-img {
+    margin-right: 30px;
   }
 }
 .contacts-info h5 {
@@ -630,7 +745,7 @@ textarea::-webkit-input-placeholder {
 footer {
   margin-top: 15px;
   text-align: center;
-  height: 100px;
+  height: 50px;
 }
 footer p {
   font-size: 12px;

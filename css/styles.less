@@ -34,6 +34,9 @@ nav {
   @media(max-width: 992px){
     height: 2000px;
   }
+   @media(max-width: 768px){
+    height: 1880px;
+  }
 }
 .nav-img {
   position: relative;
@@ -44,9 +47,13 @@ nav {
   top: 7px;
   color: #fb6470;
   font-size: 45px;
-   @media(max-width: 992px){
+  @media(max-width: 992px){
     font-size: 34px;
-     left: 30px;
+    left: 30px;
+  }
+  @media(max-width: 768px){
+    font-size: 30px;
+    left: 15px;
   }
 }
 .nav-img-tittle {
@@ -60,11 +67,14 @@ nav {
   @media(min-width: 1800px){
     top: 240px;
   }
-   @media(max-width: 1200px){
-      top: 65%;
-    }
-   @media(max-width: 992px){
+  @media(max-width: 1200px){
+    top: 65%;
+  }
+  @media(max-width: 992px){
     top: 55%;
+  }
+  @media(max-width: 768px){
+    left: 20px;
   }
   h2 {
     font-size: 32px;
@@ -78,8 +88,11 @@ nav {
       font-size: 30px;
     }
     @media(max-width: 992px){
-    font-size: 24px;
-  }
+      font-size: 24px;
+    }
+    @media(max-width: 768px){
+      font-size: 20px;
+    }
   }
   h3 {
     font-size: 16px;
@@ -89,8 +102,11 @@ nav {
       font-size: 20px;
     }
     @media(max-width: 992px){
-    font-size: 14px;
-  }
+      font-size: 14px;
+    }
+    @media(max-width: 768px){
+      font-size: 12px;
+    }
   }
 }
 .nav-link {
@@ -107,8 +123,12 @@ nav {
       font-size: 16px;
     }
     @media(max-width: 992px){
-    font-size: 14px;
-  }
+      font-size: 14px;
+    }
+    @media(max-width: 768px){
+      font-size: 10px;
+      margin-left: 5px;
+    }
   }
 }
 .nav-line {
@@ -135,6 +155,10 @@ header {
     padding-top: 80px;
     padding-bottom: 85px;
   }
+  @media(max-width: 768px){
+    padding-top: 40px;
+    padding-bottom: 45px;
+  }
   h1 {
     font-size: 48px;
     font-weight: 400;
@@ -151,6 +175,10 @@ header {
     }
     @media(max-width: 992px){
       font-size: 36px;
+      margin-bottom: 10px;
+    }
+    @media(max-width: 768px){
+      font-size: 26px;
       margin-bottom: 10px;
     }
   }
@@ -170,10 +198,14 @@ header {
     @media(min-width: 1800px){
       font-size: 20px;
     }
-     @media(max-width: 992px){
+    @media(max-width: 992px){
       font-size: 12px;
-       line-height: 20px;
-       margin-bottom: 30px;
+      line-height: 20px;
+      margin-bottom: 30px;
+    }
+    @media(max-width: 768px){
+      font-size: 10px;
+      margin-bottom: 10px;
     }
   }
   a {
@@ -189,9 +221,13 @@ header {
     @media (min-width: 1400px){
       margin-left: auto;
     }
-     @media(max-width: 992px){
+    @media(max-width: 992px){
       font-size: 16px;
-       padding: 10px 39px 9px 39px;
+      padding: 10px 39px 9px 39px;
+    }
+    @media(max-width: 768px){
+      font-size: 10px;
+      padding: 6px 27px 7px 27px;
     }
   }
 }
@@ -199,6 +235,9 @@ main {
   padding: 71px 95px 80px 115px;
   @media(max-width: 992px){
     padding: 50px 55px 20px 75px;
+  }
+  @media(max-width: 768px){
+    padding: 30px 30px 20px 45px;
   }
   h3 {
     font-size: 32px;
@@ -211,9 +250,9 @@ main {
       font-size: 46px;
     }
     @media(max-width: 992px){
-    font-size: 30px;
+      font-size: 30px;
       margin-bottom: 1px;
-  }
+    }
   }
 }
 .main-line {
@@ -286,9 +325,13 @@ svg {
       font-size: 30px;
       margin-bottom: 10px;
     }
-     @media(max-width: 992px){
-       font-size: 17px;
-     }
+    @media(max-width: 992px){
+      font-size: 17px;
+    }
+    @media(max-width: 768px){
+      font-size: 13px;
+      margin-bottom: 5px;
+    }
   }
   p {
     font-size: 16px;
@@ -302,9 +345,13 @@ svg {
       font-size: 22px;
     }
     @media(max-width: 992px){
-       font-size: 14px;
+      font-size: 14px;
       margin-bottom: 10px;
-     }
+    } @media(max-width: 768px){
+    font-size: 11px;
+    margin-bottom: 5px;
+  }
+
   }
   a {
     font-size: 14px;
@@ -316,8 +363,8 @@ svg {
       font-size: 20px;
     }
     @media(max-width: 992px){
-       font-size: 12px;
-     }
+      font-size: 12px;
+    }
   }
 }
 .main-img-line {
@@ -354,9 +401,16 @@ svg {
   @media(max-width: 992px){
     margin-top: 10px;
   }
+  @media(max-width: 768px){
+    display: inline-block;
+    margin-top: 3px;
+  }
 }
 .contacts-form {
   width: 38%;
+   @media(max-width: 768px){
+      width: 100%;
+    }
   h4 {
     margin-bottom: 10px;
     font-size: 22px;
@@ -386,6 +440,9 @@ svg {
     @media(max-width: 992px){
       margin-left: 130px;
     }
+    @media(max-width: 992px){
+      margin-left: 170px;
+    }
   }
 }
 /*.contacts-container {
@@ -410,6 +467,9 @@ svg {
   }
   @media(max-width: 992px){
     width: 225px;
+  }
+  @media(max-width: 768px){
+    width: 265px;
   }
 }
 .conracts-form-message {
@@ -447,16 +507,26 @@ textarea::-webkit-input-placeholder {
   @media(max-width: 1200px){
     margin-left: 40px;
   }
-   @media(max-width: 992px){
+  @media(max-width: 992px){
     margin-left: 50px;
+  }
+  @media(max-width: 768px){
+    position: absolute;
+    display: none;
   }
 }
 .contacts {
   width: 46%;
+  @media(max-width: 768px){
+      width: 100%;
+    }
 }
 .contacts-wrapper {
   display: flex;
   margin-bottom: 16px;
+  @media(max-width: 768px){
+    margin-bottom: 0;
+  }
 }
 .contacts-img {
   margin-right: 42px;
@@ -467,8 +537,11 @@ textarea::-webkit-input-placeholder {
   @media(max-width: 1200px){
     margin-right: 30px;
   }
-   @media(max-width: 992px){
+  @media(max-width: 992px){
     margin-right: 10px;
+  }
+  @media(max-width: 768px){
+    margin-right: 30px;
   }
 }
 .contacts-info {
@@ -507,7 +580,7 @@ textarea::-webkit-input-placeholder {
 footer {
   margin-top: 15px;
   text-align: center;
-  height: 100px;
+  height: 50px;
   p {
     font-size: 12px;
     font-weight: 500;
