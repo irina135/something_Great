@@ -658,14 +658,6 @@ svg {
   color: white;
   opacity: 0.7;
 }
-.main-img a a:active {
-  color: white;
-  text-decoration: none;
-}
-.main-img a a:visited {
-  color: white;
-  text-decoration: none;
-}
 @media (min-width: 1800px) {
   .main-img a {
     font-size: 20px;
@@ -681,6 +673,10 @@ svg {
     font-size: 10px;
     margin-left: 3px;
   }
+}
+.main-img a:hover {
+  color: white;
+  text-decoration: none;
 }
 .main-img-line {
   width: 92px;
