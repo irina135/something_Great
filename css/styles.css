@@ -65,6 +65,11 @@ nav img {
 }
 @media (max-width: 576px) {
   .nav-img {
+    width: 10%;
+  }
+}
+@media (max-width: 450px) {
+  .nav-img {
     width: 15%;
   }
 }
@@ -261,6 +266,20 @@ header {
     padding-bottom: 45px;
   }
 }
+@media (max-width: 576px) {
+  header {
+    padding-top: 40px;
+    padding-bottom: 45px;
+    text-align: center;
+  }
+}
+@media (max-width: 400px) {
+  header {
+    padding-top: 20px;
+    padding-bottom: 25px;
+    text-align: center;
+  }
+}
 header h1 {
   font-size: 48px;
   font-weight: 400;
@@ -290,6 +309,13 @@ header h1 {
   header h1 {
     font-size: 26px;
     margin-bottom: 10px;
+  }
+}
+@media (max-width: 576px) {
+  header h1 {
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-left: auto;
   }
 }
 header p {
@@ -326,6 +352,14 @@ header p {
     margin-bottom: 10px;
   }
 }
+@media (max-width: 576px) {
+  header p {
+    font-size: 10px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    width: 100%;
+  }
+}
 header a {
   color: white;
   font-size: 22px;
@@ -352,6 +386,13 @@ header a {
   header a {
     font-size: 10px;
     padding: 6px 27px 7px 27px;
+  }
+}
+@media (max-width: 576px) {
+  header a {
+    font-size: 10px;
+    padding: 6px 27px 7px 27px;
+    margin-left: auto;
   }
 }
 main {

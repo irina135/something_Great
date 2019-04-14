@@ -48,7 +48,10 @@ nav {
 }
 .nav-img {
   position: relative;
-   @media(max-width: 576px){
+    @media(max-width: 576px){
+     width: 10%;
+  }
+   @media(max-width: 450px){
      width: 15%;
   }
 }
@@ -196,6 +199,16 @@ header {
     padding-top: 40px;
     padding-bottom: 45px;
   }
+  @media(max-width: 576px){
+    padding-top: 40px;
+    padding-bottom: 45px;
+     text-align: center;
+  }
+   @media(max-width: 400px){
+    padding-top: 20px;
+    padding-bottom: 25px;
+     text-align: center;
+  }
   h1 {
     font-size: 48px;
     font-weight: 400;
@@ -217,6 +230,11 @@ header {
     @media(max-width: 768px){
       font-size: 26px;
       margin-bottom: 10px;
+    }
+    @media(max-width: 576px){
+      font-size: 20px;
+      margin-bottom: 0;
+      margin-left: auto;
     }
   }
   p {
@@ -244,6 +262,12 @@ header {
       font-size: 10px;
       margin-bottom: 10px;
     }
+    @media(max-width: 576px){
+      font-size: 10px;
+      margin-bottom: 5px;
+      margin-left: auto;
+      width: 100%;
+    }
   }
   a {
     color: white;
@@ -265,6 +289,11 @@ header {
     @media(max-width: 768px){
       font-size: 10px;
       padding: 6px 27px 7px 27px;
+    }
+     @media(max-width: 576px){
+      font-size: 10px;
+      padding: 6px 27px 7px 27px;
+       margin-left: auto;
     }
   }
 }
