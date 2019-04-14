@@ -14,6 +14,9 @@ a:hover {
   display: flex;
   justify-content: center;
   width: 100%;
+   @media(max-width: 576px){
+    flex-direction: column;
+  }
 }
 nav {
   width: 22.44%;
@@ -22,24 +25,39 @@ nav {
   img {
     width: 100%;
   }
-  @media(min-width: 1500px){
+  @media (min-width: 1500px) {
     height: 2720px;
   }
-  @media(min-width: 1800px){
+  @media (min-width: 1800px) {
     height: 3000px;
   }
-  @media(max-width: 1200px){
+  @media (max-width: 1200px) {
     height: 2380px;
   }
-  @media(max-width: 992px){
+  @media (max-width: 992px) {
     height: 2000px;
   }
-   @media(max-width: 768px){
+  @media (max-width: 768px) {
     height: 1880px;
+  }
+  @media (max-width: 576px) {
+    top: 10%;
+    width: 100%;
+    height: auto;
   }
 }
 .nav-img {
   position: relative;
+   @media(max-width: 576px){
+     width: 15%;
+  }
+}
+.nav-wrapper {
+    @media(max-width: 576px){
+      position: absolute;
+      background: #353541;
+      display: none;
+  }
 }
 #nav-img-btn {
   position: absolute;
@@ -54,6 +72,11 @@ nav {
   @media(max-width: 768px){
     font-size: 30px;
     left: 15px;
+  }
+   @media(max-width: 576px){
+    font-size: 25px;
+    left: 3px;
+     top: -10px;
   }
 }
 .nav-img-tittle {
@@ -75,6 +98,9 @@ nav {
   }
   @media(max-width: 768px){
     left: 20px;
+  }
+  @media(max-width: 576px){
+    display: none;
   }
   h2 {
     font-size: 32px;
@@ -130,6 +156,13 @@ nav {
       margin-left: 5px;
     }
   }
+    @media(max-width: 576px){
+      margin-left: 5px;
+       margin-top: 1px;
+       margin-bottom: 1px;
+        padding-top: 0!important;
+       padding-bottom: 0!important;
+    }
 }
 .nav-line {
   width: 100%;
@@ -138,6 +171,10 @@ nav {
 }
 .main-container {
   width: 77.56%;
+  @media(max-width: 576px){
+      clear: both;
+    width: 100%;
+  }
 }
 header {
   vertical-align: center;
