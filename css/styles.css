@@ -217,6 +217,9 @@ nav img {
   color: white;
   text-decoration: none;
 }
+.nav-link a:hover {
+  text-decoration: none;
+}
 .nav-link a {
   margin-left: 15px;
   font-size: 22px;
