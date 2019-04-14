@@ -452,6 +452,10 @@ header a {
     margin-left: auto;
   }
 }
+header a:hover {
+  color: white;
+  text-decoration: none;
+}
 main {
   padding: 66px 95px 80px 115px;
 }
