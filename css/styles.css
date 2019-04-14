@@ -742,6 +742,11 @@ svg {
     margin-left: 170px;
   }
 }
+@media (max-width: 576px) {
+  .contacts-form button {
+    margin-left: 185px;
+  }
+}
 .contacts-form-border {
   padding-left: 10px;
   width: 265px;
