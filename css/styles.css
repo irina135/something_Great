@@ -246,10 +246,10 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 112px;
-  padding-bottom: 115px;
+  padding-bottom: 120px;
   color: white;
 }
-@media (min-width: 1400px) {
+@media (min-width: 1300px) {
   header {
     text-align: center;
   }
@@ -258,12 +258,14 @@ header {
   header {
     padding-top: 80px;
     padding-bottom: 85px;
+    text-align: center;
   }
 }
 @media (max-width: 768px) {
   header {
     padding-top: 40px;
     padding-bottom: 45px;
+    text-align: center;
   }
 }
 @media (max-width: 576px) {
@@ -288,7 +290,7 @@ header h1 {
   margin-left: 12.73%;
   margin-bottom: 18px;
 }
-@media (min-width: 1400px) {
+@media (min-width: 1300px) {
   header h1 {
     margin-left: auto;
   }
@@ -297,18 +299,26 @@ header h1 {
   header h1 {
     font-size: 58px;
     margin-bottom: 28px;
+    margin-left: auto;
+  }
+}
+@media (max-width: 1200px) {
+  header h1 {
+    margin-left: auto;
   }
 }
 @media (max-width: 992px) {
   header h1 {
     font-size: 36px;
     margin-bottom: 10px;
+    margin-left: auto;
   }
 }
 @media (max-width: 768px) {
   header h1 {
     font-size: 26px;
     margin-bottom: 10px;
+    margin-left: auto;
   }
 }
 @media (max-width: 576px) {
@@ -328,7 +338,7 @@ header p {
   line-height: 29px;
   font-weight: 500;
 }
-@media (min-width: 1400px) {
+@media (min-width: 1300px) {
   header p {
     margin-left: auto;
     width: auto;
@@ -339,17 +349,27 @@ header p {
     font-size: 20px;
   }
 }
+@media (max-width: 1200px) {
+  header p {
+    margin-left: auto;
+    width: 100%;
+  }
+}
 @media (max-width: 992px) {
   header p {
     font-size: 12px;
     line-height: 20px;
     margin-bottom: 30px;
+    margin-left: auto;
+    width: 100%;
   }
 }
 @media (max-width: 768px) {
   header p {
     font-size: 10px;
     margin-bottom: 10px;
+    margin-left: auto;
+    width: 100%;
   }
 }
 @media (max-width: 576px) {
@@ -371,7 +391,12 @@ header a {
   border-radius: 5px;
   margin-left: 36.63%;
 }
-@media (min-width: 1400px) {
+@media (min-width: 1300px) {
+  header a {
+    margin-left: auto;
+  }
+}
+@media (max-width: 1200px) {
   header a {
     margin-left: auto;
   }
@@ -380,12 +405,14 @@ header a {
   header a {
     font-size: 16px;
     padding: 10px 39px 9px 39px;
+    margin-left: auto;
   }
 }
 @media (max-width: 768px) {
   header a {
     font-size: 10px;
     padding: 6px 27px 7px 27px;
+    margin-left: auto;
   }
 }
 @media (max-width: 576px) {
@@ -396,7 +423,7 @@ header a {
   }
 }
 main {
-  padding: 71px 95px 80px 115px;
+  padding: 66px 95px 80px 115px;
 }
 @media (max-width: 992px) {
   main {
