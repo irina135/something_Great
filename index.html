@@ -60,6 +60,37 @@
             <div class="nav-line">
             </div>
         </div>
+        <div id="nav-wrapper-sm" class="nav-wrapper-sm-active">
+            <div class="nav-wrapper-sm-active-flex">
+                <div class="nav-link-column">
+            <div class="nav-link">
+                <a href="#">Home</a>
+            </div>
+            <div class="nav-link">
+                <a href="#">About Me</a>
+            </div>
+            <div class="nav-link">
+                <a href="#">Education</a>
+            </div>
+                </div>
+                <div class="nav-link-column">
+            <div class="nav-link">
+                <a href="#">Work Experience</a>
+            </div>
+            <div class="nav-link">
+                <a href="#">Skills</a>
+            </div>
+            <div class="nav-link">
+                <a href="#">Portfolio</a>
+            </div>
+                </div>
+                    <div class="nav-link-column">
+            <div class="nav-link">
+                <a href="#">Contacts</a>
+            </div>
+                </div>
+            </div>
+        </div>
     </nav>
     <div class="main-container">
         <header>
@@ -230,5 +261,16 @@
         </footer>
     </div>
 </div>
+<script src="vendors/jquery/dist/jquery.min.js"></script>
+<script src="vendors/pixlayout/jquery.pixlayout.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<script>
+     $(document).ready(function () {
+
+        $('#nav-img-btn').click(function(event) {
+            $('#nav-wrapper-sm').toggleClass('nav-wrapper-sm-active');
+        });
+        })
+</script>
 </body>
 </html>
