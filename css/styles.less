@@ -21,11 +21,12 @@ a:hover {
 nav {
   width: 22.44%;
   background: #353541;
-  height: 2500px;
+  /*height: 2500px;*/
+  min-height: 100%;
   img {
     width: 100%;
   }
-  @media (min-width: 1500px) {
+ /* @media (min-width: 1500px) {
     height: 2720px;
   }
   @media (min-width: 1800px) {
@@ -39,11 +40,12 @@ nav {
   }
   @media (max-width: 768px) {
     height: 1880px;
-  }
+  }*/
   @media (max-width: 576px) {
     top: 10%;
     width: 100%;
     height: auto;
+    min-height: auto;
   }
 }
 .nav-img {

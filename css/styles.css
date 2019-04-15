@@ -23,41 +23,33 @@ a:hover {
 nav {
   width: 22.44%;
   background: #353541;
-  height: 2500px;
+  /*height: 2500px;*/
+  min-height: 100%;
+  /* @media (min-width: 1500px) {
+    height: 2720px;
+  }
+  @media (min-width: 1800px) {
+    height: 3000px;
+  }
+  @media (max-width: 1200px) {
+    height: 2260px;
+  }
+  @media (max-width: 992px) {
+    height: 2000px;
+  }
+  @media (max-width: 768px) {
+    height: 1880px;
+  }*/
 }
 nav img {
   width: 100%;
-}
-@media (min-width: 1500px) {
-  nav {
-    height: 2720px;
-  }
-}
-@media (min-width: 1800px) {
-  nav {
-    height: 3000px;
-  }
-}
-@media (max-width: 1200px) {
-  nav {
-    height: 2260px;
-  }
-}
-@media (max-width: 992px) {
-  nav {
-    height: 2000px;
-  }
-}
-@media (max-width: 768px) {
-  nav {
-    height: 1880px;
-  }
 }
 @media (max-width: 576px) {
   nav {
     top: 10%;
     width: 100%;
     height: auto;
+    min-height: auto;
   }
 }
 .nav-img {
