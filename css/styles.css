@@ -783,6 +783,11 @@ svg {
     margin-left: 130px;
   }
 }
+@media (max-width: 768px) {
+  .contacts-form button {
+    margin-left: 170px;
+  }
+}
 @media (max-width: 576px) {
   .contacts-form button {
     margin-left: 185px;
