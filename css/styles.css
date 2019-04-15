@@ -88,6 +88,11 @@ nav img {
     display: none;
   }
 }
+@media (max-width: 480px) {
+  #nav-wrapper-sm {
+    left: 10%;
+  }
+}
 .nav-wrapper-sm-active-flex {
   display: flex;
   justify-content: space-between;
